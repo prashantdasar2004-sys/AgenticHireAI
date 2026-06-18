@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { useParams } from "next/navigation";
 import { Button, Field, Input, Panel } from "../../../../components/ui";
-import { api } from "../../../../lib/api";
+import { api } from "../../../lib/api";
 
 export default function ApplyPage() {
   const params = useParams();
