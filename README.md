@@ -1,18 +1,24 @@
-# AI Recruitment Organization
+# AgenticHireAI
 
-Spec-driven multi-agent recruitment platform built with `/client`, `/server`, and shared `/specs`.
+AI-Powered Recruitment Automation Platform
 
-## Local Development
+Features:
+- Resume Parsing using Groq LLM
+- Candidate Skill Matching
+- Match Score Calculation
+- Missing Skills Detection
+- AI Interview Question Generation
+- Automated Email Notifications
+- Workflow Engine
+- Recruiter Dashboard
+- Candidate Ranking System
 
-1. Start MongoDB and Qdrant:
-   ```bash
-   docker compose up -d
-   ```
-2. Copy environment files:
-   ```bash
-   cp server/.env.example server/.env
-   cp client/.env.local.example client/.env.local
-   ```
-3. Run the backend on `localhost:5000` and frontend on `localhost:3000`.
-
-Business rules, thresholds, workflow order, email templates, RAG policy, and prompts live in `/specs`.
+Tech Stack:
+- Next.js
+- React.js
+- Node.js
+- Express.js
+- MongoDB
+- Groq LLM
+- Resend
+- JWT
