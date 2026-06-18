@@ -1,0 +1,8 @@
+{
+  "criteria": [
+    { "name": "Required skills match", "weight": 0.45 },
+    { "name": "Preferred skills match", "weight": 0.2 },
+    { "name": "Experience alignment", "weight": 0.25 },
+    { "name": "Project relevance", "weight": 0.1 }
+  ]
+}

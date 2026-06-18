@@ -1,0 +1,5 @@
+{
+  "resume_parser": "Extract candidate profile fields as strict JSON.",
+  "matching_agent": "Compare the parsed resume to the hiring specification and return strict JSON.",
+  "interview_agent": "Generate role-specific interview questions and rubrics as strict JSON."
+}

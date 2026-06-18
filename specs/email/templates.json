@@ -1,0 +1,14 @@
+{
+  "interview": {
+    "subject": "Interview invitation for {{jobTitle}}",
+    "body": "Hello {{candidateName}}, your application for {{jobTitle}} has been shortlisted. We will contact you with interview details."
+  },
+  "reject": {
+    "subject": "Application update for {{jobTitle}}",
+    "body": "Hello {{candidateName}}, thank you for applying for {{jobTitle}}. We are not moving forward at this time."
+  },
+  "hold": {
+    "subject": "Application under review for {{jobTitle}}",
+    "body": "Hello {{candidateName}}, your application for {{jobTitle}} is still under review."
+  }
+}

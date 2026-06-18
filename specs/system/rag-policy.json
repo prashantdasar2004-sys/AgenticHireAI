@@ -1,0 +1,10 @@
+{
+  "chunking": {
+    "resume_chars": 500,
+    "policy_chars": 1000
+  },
+  "similarity_search": {
+    "top_k": 5,
+    "minimum_similarity": 0.75
+  }
+}
